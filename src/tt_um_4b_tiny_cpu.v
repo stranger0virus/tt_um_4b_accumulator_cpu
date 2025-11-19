@@ -13,7 +13,6 @@ module tt_um_4b_tiny_cpu (
 
 	assign uio_oe = 0;
 	assign uio_out = 0;
-	assign ena = 0;
 
 	wire _unused = &{ena, uio_out, uio_oe, 1'b0};
    //  Registers
