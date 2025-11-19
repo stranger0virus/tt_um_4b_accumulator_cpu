@@ -5,7 +5,8 @@ module tt_um_4b_tiny_cpu (
     input        rst_n,
     input  [7:0] ui_in,
     input  [7:0] uio_in,
-    output [7:0] uo_out
+	output [7:0] uo_out,
+	input ena
 );
 
    //  Registers
