@@ -59,4 +59,4 @@ At the end, the CPU should have gone through all the instructions correctly, and
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+non
