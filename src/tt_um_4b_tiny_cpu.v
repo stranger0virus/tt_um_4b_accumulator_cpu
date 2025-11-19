@@ -1,14 +1,21 @@
 `timescale 1ns/1ps
 
 module tt_um_4b_tiny_cpu (
-    input        clk,
-    input        rst_n,
-    input  [7:0] ui_in,
-    input  [7:0] uio_in,
-	output [7:0] uo_out,
-	input ena
+    input  wire       clk,
+    input  wire       rst_n,
+    input wire        ena,
+	input  wire [7:0] ui_in,
+	output wire [7:0] uo_out,
+	input  wire [7:0] uio_in,
+	output wire [7:0] uio_out,
+	output wire [7:0] uio_oe
 );
 
+	assign uio_oe = 0;
+	assign uio_out = 0;
+	assign ena = 0;
+
+	wire _unused = &{ena, uio_out, uio_oe, 1'b0};
    //  Registers
     reg [3:0] pc;
     reg [3:0] acc;
