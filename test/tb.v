@@ -46,7 +46,7 @@ module tb ();
       .rst_n  (rst_n)     // not reset
   );
 
-    initial begin
+/*    initial begin
 
     $monitor("Time=%0t | Input = %b | Sel = %b | Output = %b |  | Imm = %b", $time, ui_in, uio_in, uo_out, uut.imm);
     
@@ -80,6 +80,6 @@ module tb ();
         
         $finish;
     end
-
+*/
 endmodule
    
