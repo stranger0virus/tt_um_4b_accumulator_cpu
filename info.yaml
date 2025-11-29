@@ -2,7 +2,7 @@
 project:
   wokwi_id:      0
   title:        "4 bit Accumulator CPU"      # Project title
-  author:       "Cambridge IT"      # Your name
+  author:       "stRanger"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A minimal 4-bit accumulator-driven CPU where each instruction from ROM operates on the accumulator via an ALU (ADD, SUB, AND, OR), with the accumulator storing the result of each operation for the next cycle."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
